@@ -1,30 +1,66 @@
-const path = require('path')
-
 module.exports = {
   siteMetadata: {
-    title: `Gabriel Adorf`,
+    title: `Sushil Buragute`,
+    name: `Narative`,
+    siteUrl: `https://novela.narative.co`,
+    description: `This is my description that will be used in the meta tags and important for search results`,
+    hero: {
+      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      maxWidth: 652,
+    },
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/narative`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/narative`,
+      },
+      {
+        name: `instagram`,
+        url: `https://instagram.com/narative.co`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/company/narative/`,
+      },
+      {
+        name: `dribbble`,
+        url: `https://dribbble.com/narativestudio`,
+      },
+    ],
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-root-import',
+      resolve: "@narative/gatsby-theme-novela",
       options: {
-        src: path.join(__dirname, 'src'),
-        components: path.join(__dirname, 'src/components'),
-        fonts: path.join(__dirname, 'src/fonts'),
-        img: path.join(__dirname, 'src/img'),
-        layouts: path.join(__dirname, 'src/layouts'),
-        pages: path.join(__dirname, 'src/pages'),
-        styles: path.join(__dirname, 'src/styles'),
-        utils: path.join(__dirname, 'src/utils'),
+        contentPosts: "content/posts",
+        contentAuthors: "content/authors",
+        basePath: "/",
+        sources: {
+          local: true,
+          contentful: false,
+        },
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Novela by Narative`,
+        short_name: `Novela`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-107072121-1',
+        trackingId: "UA-118232427-3",
       },
     },
   ],
-}
+};
