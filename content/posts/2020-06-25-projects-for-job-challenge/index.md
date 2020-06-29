@@ -1,130 +1,105 @@
 ---
-title: My first post using Novela by Narative
+title: Projets I've completed for the TeamTanayJobChallenge
 author: Sushil Buragute
-date: 2019-04-30
+date: 2020-06-25
 hero: ./images/hero.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: 5 projects, 3 Blogs, 2 Reviews
 ---
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+👨‍💻Hello, my name is Sushil.
+I'm a Developer and a self taught Designer. Overlap of design and development has always been fascinating for me since the beginning and that's when I knew I had to do something here.
 
-## Headers
+### introduction
 
-# H1
+"If you can do what you do best and be happy, you are further along in life than most people" - Leonardo Dicaprio
 
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
+This quote from Leonardo really resonated with me, I've always had a passion for making and building amazing products. I view myself as a multi-talented person. And I spend most of my time learning and keeping a tab on a emerging trends in the everchanging tech world.Fueled by high energy levels and boundless enthusiasm, I'm easily inspired and more then willing to follow my fascinations wherever they take me. I'm passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire!
 
-## H2
+## why are you taking this challenge?
 
-### H3
+⚡I want procure knowledge about building full fledged Web-Apps and what makes a product tick with the end user.
+(Also the factor where I like to build new projects and solve problems to get a daily dose of Dopamine and Serotonin)
 
-#### H4
+## something interesting about you?
 
-##### H5
+I've got quick reflexes and good understanding ability. So whenever it comes to athletics or playing a FPS game, I squish the competition.
 
-###### H6
+### help I need?
 
-## Emphasis
+It would be nice to know about Software Engineering skills, Development Cycle, and finally building full fledged polished Web-apps.
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+### how to contact me?
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+- [Twitter](https://twitter.com/codetastic1)
+- [LinkedIn](https://in.linkedin.com/in/sushil-buragute)
+- [Instagram](https://instagram.com/sushil.buragute)
 
-Combined emphasis with **asterisks and _underscores_**.
+### projects
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+I've done various projects to showcase my variety in skillset! Check them out below:
 
-## Lists
+#### Covid19-Tracker: Track the Virus!
 
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
+_description_ A Single Page web-app which shows the current number of cases of covid around the world and country!
 
-- Unordered list can use asterisks
+_hosted link_ https://stats-covid.netlify.app/
 
-* Or minuses
+_stack_ Made with React and Chart.js!
 
-- Or pluses
+_github link_ https://github.com/sushilburagute/simple-covid-dashboard
 
-## Links
+#### 200IQ-Advice: Get widely-accepted Advise
 
-[I'm an inline-style link](https://www.google.com)
+_description_ As Rancho famously said in 3 idiots, "Free advise hai. Lena hai toh lo, nahitoh jaane do!". Made this SPWA for gettingmy way around using axios and an API!
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+_hosted link_ https://200iq-advisor.netlify.app/
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+_stack_ Made with React and Advise API!
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+_github link_ https://github.com/sushilburagute/200iq-advice
 
-[You can use numbers for reference-style link definitions][1]
+#### Cloudy! : Get the current weather updates across the world!
 
-Or leave it empty and use the [link text itself].
+_description_ A React app where you can look up the weather of any place in the world! Ps: if you search for a place which has the weather lesser than 16 degrees, you're in for a treat!
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+_hosted link_ https://cloudyweather.netlify.app/
 
-Some text to show that the reference links can follow later.
+_stack_ Made with React and Weather API!
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+_github link_ https://github.com/sushilburagute/cloudy
 
-## Images
+#### Musical : Tap away and hit a score of 69 to Win
 
-<div className="Image__Small">
-  <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
-  />
-</div>
+_description_ A good old Vanilla JS game where a Maths.random() gives you a score when you tap on a tile! You're lucky if you get a score of 69 :P
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+_hosted link_ https://musical-game.netlify.app/
 
-## Code and Syntax Highlighting
+_stack_ Made with good old HTML//CSS//JS
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+_github link_ https://github.com/sushilburagute/musical
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+#### Meditation : Wind-down with this soothing Vanilla JS project
 
-### JSX
+_description_ Feeling stressed? Take a 3/5/10 minute mediation break where you'll be played some rain/waves background music while you focus on your breating.
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
+_hosted link_ https://zen-mode.netlify.app/
 
-export default (props) => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
+_stack_ Made with good old HTML//CSS//JS
 
-## Blockquotes
+_github link_ https://github.com/sushilburagute/meditation-app
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
+### blogs
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+Apart of doing blogs, I do these bite-sized learning posts on [Instagram](https://instagram.com/sushil.buragute) Give it a look too!
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+### The productivity hack which I've been lately using.
 
-## Horizontal Rule
+_description_ In this blog I have described the hacks I've learnt to get more done through the day!
 
-Horizontal Rule
+### How barrier to code has fallen over the years
 
-Three or more...
+_description_ From requiring a Phd to work on computers to needing an Internet connection. See how it all changed in my article!
 
----
+### Why I love the cloud!
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+_description_ My take on why everyone should learn the cloud and be empowered by it!
