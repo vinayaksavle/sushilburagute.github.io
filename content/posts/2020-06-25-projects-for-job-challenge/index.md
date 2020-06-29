@@ -1,5 +1,5 @@
 ---
-title: Projets I've completed for the TeamTanayJobChallenge
+title: Projects I have completed for the TeamTanayJobChallenge
 author: Sushil Buragute
 date: 2020-06-25
 hero: ./images/hero.jpg
