@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Sushil Buragute`,
+    title: `Novela by Narative`,
     name: `Narative`,
-    siteUrl: `https://sushilburagute.github.io`,
+    siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Hi! I'm Sushil. I communicate to Machines using Code and to Humans using Design `,
+      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
       maxWidth: 652,
     },
     social: [
@@ -59,7 +59,8 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {},
+      options: {
+      },
     },
   ],
 };
