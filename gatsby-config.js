@@ -1,33 +1,33 @@
 module.exports = {
   siteMetadata: {
     title: `Sushil Buragute`,
-    name: `Narative`,
+    name: `Sushil Buragute`,
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Hi! I'm Sushil. I'm a Web dev who's also good at UI/UX`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/codetastic1`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/sushilburagute`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://www.instagram.com/sushil.buragute`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://in.linkedin.com/in/sushil-buragute`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://dribbble.com/sushilburagute`,
       },
     ],
   },
