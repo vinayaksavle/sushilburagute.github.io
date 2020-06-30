@@ -1,12 +1,12 @@
 ---
-title: Fall of the Barrier to Code
+title: The Fall of the Barrier to Code
 author: Sushil Buragute
 date: 2020-06-10
 hero: ./images/code.jpg
 excerpt: From requiring a Phd to work on computers to needing an Internet connection. See how it all changed in my article!
 ---
 
-# Fall of the Barrier to Code
+# The Fall of the Barrier to Code
 
 Let me start off with an example:
 
@@ -15,19 +15,19 @@ Let me start off with an example:
 Steps:
 
 1. Generate a package.json file.
-1. Install React and React DOM.
-1. Install Webpack.
-1. Install Babel.
-1. Create index.html, App.js, main.js, webpack.config.js and.babelrc.
-1. Configure your webpack-config.js , package.json and .babelrc
-1. Run the server and generate the bundle!
+2. Install React and React DOM.
+3. Install Webpack.
+4. Install Babel.
+5. Create index.html, App.js, main.js, webpack.config.js and.babelrc.
+6. Configure your webpack-config.js , package.json and .babelrc
+7. Run the server and generate the bundle!
 
 ###### Setting up an React development environment post-2017
 
 Steps:
 
 1. npx create-react-app app-name
-1. Run the project. You're good to go!
+2. Run the project. You're good to go!
 
 So 7 steps have been condensed into 2 steps. The point which stands out here is, the barrier to entry for coding has fallen. Since the leaps in computation and advancements in technology and emergence of new roles, the internet saw a bust since the 2000s and hasn’t slowed down yet.
 

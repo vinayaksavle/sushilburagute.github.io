@@ -1,5 +1,5 @@
 ---
-title: Productivity hacks I've been using
+title: Productivity hacks to get more done
 author: Sushil Buragute
 date: 2020-06-12
 hero: ./images/prod.jpg

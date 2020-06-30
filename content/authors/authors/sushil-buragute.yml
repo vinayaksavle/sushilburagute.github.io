@@ -3,9 +3,7 @@ bio: |
   Hey I'm Sushil! Check out my projects and Blogs below.
 avatar: ./avatars/sushil-buragute.jpg
 social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+  - url: https://twitter.com/codetastic1
+  - url: https://github.com/sushilburagute
+  - url: https://instagram.com/sushil.buragute
 featured: true
