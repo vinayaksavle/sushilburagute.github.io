@@ -1,10 +1,12 @@
 ---
-title: Projects I have completed for the TeamTanayJobChallenge
+title: jobChallenge 2020
 author: Sushil Buragute
 date: 2020-06-25
-hero: ./images/hero.jpg
+hero: ./images/project.jpg
 excerpt: 5 projects, 3 Blogs, 2 Reviews
 ---
+
+### This is the markdown for my participation in the 2020 jobChallenge!
 
 👨‍💻Hello, my name is Sushil.
 I'm a Developer and a self taught Designer. Overlap of design and development has always been fascinating for me since the beginning and that's when I knew I had to do something here.
