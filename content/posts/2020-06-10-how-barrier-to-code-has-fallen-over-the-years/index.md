@@ -1,5 +1,5 @@
 ---
-title: How barrier to code has fallen over the years!
+title: How barrier to code has fallen over the years
 author: Sushil Buragute
 date: 2020-06-10
 hero: ./images/hero.jpg

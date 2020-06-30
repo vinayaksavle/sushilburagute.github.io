@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Sushil Buargute`,
+    title: `Sushil Buragute`,
     name: `Sushil Buragute`,
     siteUrl: `https://sushilburagute.github.io`,
     description: `This is my description that will be used in the meta tags and important for search results`,
@@ -11,23 +11,23 @@ module.exports = {
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/codetastic1`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/sushilburagute`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/sushil.buragute`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://in.linkedin.com/in/sushil-buragute`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://dribbble.com/sushilburagute`,
       },
     ],
   },
