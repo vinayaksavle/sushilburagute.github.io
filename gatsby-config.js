@@ -3,9 +3,9 @@ module.exports = {
     title: `Sushil Buragute`,
     name: `Sushil Buragute`,
     siteUrl: `https://sushilburagute.github.io`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `Hey I'm Sushil⚡ I'm an UI/UX designer and a Web Dev working my way up the ladder in ReactJS and the MERN stack. `,
     hero: {
-      heading: `Hi! I'm Sushil. I communicate with Machines using Code and with Humans using Design.`,
+      heading: `Hi! I'm Sushil. I communicate with Machines using Code and to Humans using Design.`,
       maxWidth: 652,
     },
     social: [
@@ -32,6 +32,19 @@ module.exports = {
     ],
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-163929831-3",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: false,
+        // Setting this parameter is also optional
+        respectDNT: false,
+      },
+    },
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
