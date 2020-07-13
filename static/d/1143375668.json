@@ -1,1 +1,5 @@
-{"data":{"sitePlugin":{"pluginOptions":{"rootPath":null,"basePath":"/"}}}}
+{
+  "data": {
+    "sitePlugin": { "pluginOptions": { "rootPath": null, "basePath": "/" } }
+  }
+}
