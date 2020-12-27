@@ -14,6 +14,8 @@ jobs:
           with:
           access-token: ${{ secrets.DEPLOY_PERSONAL_SITE }}
           deploy-branch: master
+          gatsby-args: ""
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
