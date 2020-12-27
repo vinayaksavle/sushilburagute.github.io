@@ -1,78 +1,106 @@
 module.exports = {
   siteMetadata: {
     title: `Sushil Buragute`,
-    name: `Sushil Buragute`,
-    siteUrl: `https://sushilburagute.github.io`,
-    description: `Hey I'm Sushil⚡ I'm an UI/UX designer and a Web Dev working my way up the ladder in ReactJS and the MERN stack. `,
-    hero: {
-      heading: `Hi! I'm Sushil. I communicate with Machines using Code and to Humans using Design.`,
-      maxWidth: 652,
-    },
-    social: [
-      {
-        name: `twitter`,
-        url: `https://twitter.com/codetastic1`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/sushilburagute`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/sushil.buragute`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://in.linkedin.com/in/sushil-buragute`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/sushilburagute`,
-      },
-    ],
+    description: `Hey I'm Sushil⚡ I'm an UI/UX designer and a Web Dev working my way up the ladder in ReactJS and the MERN stack.`,
+    author: `Sushil Buragute`,
+    siteUrl:
+      process.env.DEV_ENV === 1
+        ? `https://sushilburagute.github.io/`
+        : `https://sushilburagute.github.io/`,
+    image: `/images/og-card.png`,
+    twitterUsername: `@codetastic1`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-163929831-3",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
-        // Setting this parameter is optional
         anonymize: false,
-        // Setting this parameter is also optional
         respectDNT: false,
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
-        authorsPage: true,
-        sources: {
-          local: true,
-          // contentful: true,
+        name: `blog`,
+        path: `${__dirname}/content/blog`,
+      },
+    },
+    "gatsby-image",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Sushil Buragute`,
+        short_name: `Sushil Buragute`,
+        start_url: `/`,
+        background_color: `#2d3748`,
+        theme_color: `#81E6D9`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/logo-512x512.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://sushilburagute.github.io/",
+        sitemap: "https://sushilburagute.github.io/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+          },
+          production: {
+            policy: [{ userAgent: "*", allow: "/" }],
+          },
         },
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-env-variables`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
-        display: `standalone`,
-        icon: `src/assets/favicon.png`,
+        whitelist: [
+          "GATSBY_GOOGLE_SITE_VERIFICATION, GOOGLE_ANALYTICS_TRACKING_ID, DEV_ENV",
+        ],
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {},
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              elements: [`h2`, `h3`],
+            },
+          },
+          {
+            resolve: "gatsby-remark-prismjs",
+            options: {},
+          },
+        ],
+      },
     },
+    "gatsby-remark-autolink-headers",
   ],
-};
+}
