@@ -14,4 +14,5 @@ jobs:
         with:
           access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
           deploy-branch: main
+
           gatsby-args: "--version"
