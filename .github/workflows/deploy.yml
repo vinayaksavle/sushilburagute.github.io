@@ -14,4 +14,4 @@ jobs:
           access-token: ${{ secrets.DEPLOY_PERSONAL_SITE }}
           deploy-branch: master
           gatsby-args: "--version"
-          github_token: ${{ secrets.TOKEN_GITHUB }}
+          access-token: ${{ secrets.TOKEN_GITHUB }}
