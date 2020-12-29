@@ -14,10 +14,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
+        trackingId: "UA-163929831-3",
         head: true,
         anonymize: false,
         respectDNT: false,
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
       },
     },
     `gatsby-plugin-react-helmet`,

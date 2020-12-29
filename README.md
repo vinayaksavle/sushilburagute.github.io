@@ -18,6 +18,8 @@ My personal website running on Gatsby.
 
 - [Jeff Jadulco](https://jeffjadulco.com)
 
+`Note: If you're cloning the repo, change the Google Analytics trackingID from gatsby-config.js`
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE)
